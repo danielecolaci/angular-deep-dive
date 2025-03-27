@@ -1,4 +1,10 @@
-import { Component, ViewEncapsulation, input, ElementRef, inject } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  ViewEncapsulation,
+  inject,
+  input,
+} from '@angular/core';
 
 @Component({
   selector: 'app-control',

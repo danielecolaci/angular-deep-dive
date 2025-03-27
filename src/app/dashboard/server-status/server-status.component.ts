@@ -7,7 +7,7 @@ import { Component, DestroyRef, OnInit, inject } from '@angular/core';
   styleUrl: './server-status.component.css',
 })
 export class ServerStatusComponent implements OnInit {
-  currentStatus: 'online' | 'offline' | 'unknown' = 'online';
+  currentStatus: 'online' | 'offline' | 'unknown' = 'offline';
   private destroyRef = inject(DestroyRef);
 
   constructor() { }
